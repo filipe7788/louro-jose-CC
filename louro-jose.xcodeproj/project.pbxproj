@@ -15,6 +15,7 @@
 		EBB31597257A5E4B003CD366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBB31595257A5E4B003CD366 /* LaunchScreen.storyboard */; };
 		EBB315A2257A5E4B003CD366 /* louro_joseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB315A1257A5E4B003CD366 /* louro_joseTests.swift */; };
 		EBB315AD257A5E4C003CD366 /* louro_joseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB315AC257A5E4C003CD366 /* louro_joseUITests.swift */; };
+		EBB315C4257A5E9D003CD366 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB315C3257A5E9D003CD366 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		EBB315A8257A5E4C003CD366 /* louro-joseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "louro-joseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB315AC257A5E4C003CD366 /* louro_joseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = louro_joseUITests.swift; sourceTree = "<group>"; };
 		EBB315AE257A5E4C003CD366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBB315C3257A5E9D003CD366 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		EBB31589257A5E46003CD366 /* louro-jose */ = {
 			isa = PBXGroup;
 			children = (
+				EBB315BD257A5E80003CD366 /* Views */,
 				EBB3158A257A5E46003CD366 /* AppDelegate.swift */,
 				EBB3158C257A5E46003CD366 /* SceneDelegate.swift */,
 				EBB3158E257A5E46003CD366 /* ContentView.swift */,
@@ -134,6 +137,14 @@
 				EBB315AE257A5E4C003CD366 /* Info.plist */,
 			);
 			path = "louro-joseUITests";
+			sourceTree = "<group>";
+		};
+		EBB315BD257A5E80003CD366 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EBB315C3257A5E9D003CD366 /* Home.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +279,7 @@
 			files = (
 				EBB3158B257A5E46003CD366 /* AppDelegate.swift in Sources */,
 				EBB3158D257A5E46003CD366 /* SceneDelegate.swift in Sources */,
+				EBB315C4257A5E9D003CD366 /* Home.swift in Sources */,
 				EBB3158F257A5E46003CD366 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
